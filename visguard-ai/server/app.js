@@ -29,6 +29,7 @@ const historyRoute = require("./routes/historyRoute");
 app.use("/api/analyze", analyzeRoute);
 app.use("/api/history", historyRoute);
 app.use("/api/upload", require("./routes/uploadRoute"));
+app.use("/api/auth", require("./routes/authRoute"));
 
 
 // Global error handler (optional)
