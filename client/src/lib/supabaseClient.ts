@@ -8,4 +8,10 @@ if (!supabaseUrl || !supabaseAnonKey) {
 }
 
 export const supabase = createClient(supabaseUrl, supabaseAnonKey)
-await supabase.auth.signOut()
+
+const signOutUser = async () => {
+  await supabase.auth.signOut();
+};
+
+signOutUser();
+

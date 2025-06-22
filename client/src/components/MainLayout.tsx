@@ -8,7 +8,7 @@ import linkedinLogo from "@/assets/linkedin-logo.svg";
 import twitterLogo from "@/assets/twitter-logo.svg";
 import { Button } from "@/components/ui/button";
 import { ToggleTheme } from "@/components/toggle-theme";
-import { BACKEND, ML_API } from "@/lib/api";
+
 
 import "@/index.css";
 
