@@ -1,4 +1,3 @@
-import React from "react";
 import { useNavigate } from "react-router-dom";
 import logoIcon from "@/assets/logo-icon.svg";
 import heroBg from "@/assets/background.jpg";

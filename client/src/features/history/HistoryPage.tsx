@@ -1,9 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { supabase } from "@/lib/supabaseClient";
-import { Button } from "@/components/ui/button";
 import Header from "@/components/Header";
-import { toast } from "sonner";
 import { Card, CardContent } from "@/components/ui/card";
 
 const API = import.meta.env.VITE_API_URL;

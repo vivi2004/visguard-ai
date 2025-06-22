@@ -11,7 +11,6 @@ import HistoryPage from "@/features/history/HistoryPage"
 
 
 export default function App() {
-  const isLoggedIn = localStorage.getItem("loggedIn") === "true"
 
   return (
     <Router>
